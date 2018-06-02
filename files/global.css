@@ -1,0 +1,41 @@
+body
+{
+	font-family: Helvetica;
+    color: #1d1b1a;
+	background-image: url(background.jpg);
+    font-size: 17px;
+	margin-top: 32px;
+}
+img
+{
+	display: block;
+}
+.table
+{
+	display: table;
+	width: 960px;
+	margin: auto;
+}
+.row
+{
+	display: table-row;
+	height: 270px;
+}
+.column
+{
+	display: table-cell;
+	vertical-align: top;
+	padding: 16px;
+	width: 320px;
+}
+.wide_column
+{
+	display: table-cell;
+	vertical-align: top;
+	padding: 16px;
+	width: 480px;
+}
+.free_height_row
+{
+	display: table-row;
+}
